@@ -28,12 +28,9 @@ include = ["README.md", "CHANGELOG.md", "LICENSE"]
 "Bug Reports" = "https://github.com/EltonChou/EorzeaEnv/issues"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<=3.13"
-numpy = [
-    { version = "^1.19.0", python = ">=3.8,<3.12" },
-    { version = "^2.0", python = ">=3.12" },
-]
-rapidfuzz = "^2.0.11"
+python = ">=3.9,<=3.13"
+numpy = ">=1.19.0,<3.0.0"
+rapidfuzz = ">=2.0.11,<4.0.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^6.2.5"
